@@ -1,0 +1,36 @@
+fieldset {
+    border: ;
+    padding: 10px;
+    background-color: white;
+    width: 90%;
+    border-radius:;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+hr {
+    width: 75%;
+    height: 1px;
+    background-color: gray;
+}
+
+div {
+    width: 100%;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 2px;
+    padding-bottom: 10px;
+}
+
+li {
+    padding: 8px;
+    margin: 4px;
+    background-color: lime;
+    border-radius: 3px;
+}
