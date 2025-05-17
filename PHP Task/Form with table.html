@@ -1,0 +1,94 @@
+<html>
+<head>
+    <title>Form in Table</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Registration Form</legend>
+        <form method="post" enctype="multipart/form-data">
+            <table align="left" width=""> 
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" id="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td>Date:</td>
+                    <td><input type="date" name="dob"></td>
+                </tr>
+                <tr>
+                    <td>Color:</td>
+                    <td><input type="color" name="color"></td>
+                </tr>
+                <tr>
+                    <td>Month:</td>
+                    <td><input type="month" name="month"></td>
+                </tr>
+                <tr>
+                    <td>Mobile:</td>
+                    <td><input type="text" name="mobile"></td>
+                </tr>
+                <tr>
+                    <td>Week:</td>
+                    <td><input type="week" name="weeks"></td>
+                </tr>
+                <tr>
+                    <td>Datetime:</td>
+                    <td><input type="datetime-local" name="datetime-local"></td>
+                </tr>
+                <tr>
+                    <td>Time:</td>
+                    <td><input type="time" name="time"></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea name="address" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Upload File/Image:</td>
+                    <td><input type="file" name="file"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        Male: <input type="radio" name="gender" value="Male">
+                        Female: <input type="radio" name="gender" value="Female">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Language:</td>
+                    <td>
+                        Gujarati: <input type="checkbox" name="lag[]" value="Gujarati">
+                        Hindi: <input type="checkbox" name="lag[]" value="Hindi">
+                        English: <input type="checkbox" name="lag[]" value="English">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Country:</td>
+                    <td>
+                        <select name="country">
+                            <option value="">-----Select Option-----</option>
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Iran">Iran</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
