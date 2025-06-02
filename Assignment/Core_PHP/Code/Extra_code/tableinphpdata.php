@@ -3,6 +3,8 @@
 <title>Information</title>
 </head>
 <body>
+</body>
+</html>
 
 <?php
 
@@ -12,7 +14,7 @@ $users = array(
   array("name" => "Zainil", "email" => "zp@example.com", "phone" => "112345678")
 );
 
-echo "<table>";
+echo "<table border='1' cellspacing='0' cellpadding='5'>";
 echo "<tr><th>Name</th><th>Email</th><th>Phone</th></tr>";
 
 foreach ($users as $user) {
@@ -26,5 +28,4 @@ foreach ($users as $user) {
 echo "</table>";
 ?>
 
-</body>
-</html>
+
