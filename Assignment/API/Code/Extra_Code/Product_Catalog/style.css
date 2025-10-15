@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafc;
+  text-align: center;
+  margin: 20px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  background: white;
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+}

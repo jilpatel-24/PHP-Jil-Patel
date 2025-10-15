@@ -7,7 +7,7 @@
 <h1>Text File Content</h1>
 
 <?php
-  $filename = "mytextfile.txt"; // Replace with your file's name
+  $filename = "mytextfile.txt"; // File Name
   if (file_exists($filename)) 
   {
     $file = fopen($filename, "r");
@@ -15,7 +15,7 @@
 	{
       while (($line = fgets($file)) !== false) 
 	  {
-        echo "<p>" . htmlspecialchars($line) . "</p>";
+        echo "<p>" .($line) . "</p>";
       }
       fclose($file);
     } 
